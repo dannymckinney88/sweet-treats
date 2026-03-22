@@ -1,66 +1,113 @@
-# Danny's Delicious Deserts
-https://dannys-delicious-deserts.herokuapp.com/
-## Technologies Used
+# 🍰 Danny's Delicious Desserts
+
+Responsive React ecommerce storefront for browsing and purchasing desserts, built with reusable components, Commerce.js, and Bootstrap.
+
+---
+
+## Overview
+
+Danny's Delicious Desserts is a frontend ecommerce application built to showcase a dessert storefront experience. Users can browse products, view item details, add products to their cart, and move through a simple online shopping flow.
+
+The project was built as a responsive React app with a component-based structure and third-party ecommerce integration through Commerce.js.
+
+---
+
+## Motivation
+
+This project was created to practice building a polished, user-facing ecommerce interface with React while working with product data, cart interactions, responsive layouts, and reusable UI components.
+
+---
+
+## Tech Stack
 
 - React
-- CommerceJS
-- BootStrap
+- Commerce.js
+- Bootstrap
 - HTML
 - CSS
+- JavaScript
 
-# Screenshots
+---
 
-![BlackJack](./src/img/ss1.png)
-![BlackJack](./src/img/ss2.png)
-![BlackJack](./src/img/ss3.png)
-![BlackJack](./src/img/ss4.png)
+## Core Features
 
-# Planning Material
-![BlackJack](./src/img/planning1.png)
-![BlackJack](./src/img/planning2.png)
-![BlackJack](./src/img/planning3.png)
+- Responsive ecommerce storefront
+- Product browsing experience
+- Product detail views
+- Shopping cart functionality
+- Commerce.js integration for product and checkout data
+- Reusable component-based React UI
 
+---
 
+## Architecture
 
+The application is structured as a React frontend with:
 
+- reusable components for storefront UI
+- Commerce.js handling ecommerce/product data
+- responsive layout styling with Bootstrap
+- client-side rendering for product browsing and cart flows
 
-# Available Scripts
+---
 
-In the project directory, you can run:
+## Screenshots
 
-### `npm start`
+![Storefront Screenshot 1](./src/img/ss1.png)
+![Storefront Screenshot 2](./src/img/ss2.png)
+![Storefront Screenshot 3](./src/img/ss3.png)
+![Storefront Screenshot 4](./src/img/ss4.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Planning Material
 
-### `npm test`
+![Planning 1](./src/img/planning1.png)
+![Planning 2](./src/img/planning2.png)
+![Planning 3](./src/img/planning3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Running the Project Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone <your-repo-url>
+cd dannys-delicious-deserts
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Install dependencies
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 3. Start the development server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 4. Open the app
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```text
+http://localhost:3000
+```
+
+---
 
 ## Future Development
-* Going to add a customer receipt to show up after purchase
-* Include categories 
+
+Planned improvements include:
+
+- customer receipt / purchase confirmation after checkout
+- product categories for easier browsing
+- expanded filtering and navigation options
+- additional storefront polish and UX improvements
+
+---
+
+## Notes
+
+This project focuses on the frontend ecommerce experience and component-based UI structure. It was built as a responsive React app and integrates Commerce.js for commerce functionality.
